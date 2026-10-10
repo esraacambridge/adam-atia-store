@@ -1,0 +1,3 @@
+- [ ] AI game advisor page
+- [ ] Export project as zip to Files
+- [ ] Explain how to install the project

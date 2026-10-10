@@ -1,0 +1,12 @@
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.categories TO anon, authenticated;
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.games TO anon, authenticated;
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.customers TO anon, authenticated;
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.orders TO anon, authenticated;
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.order_items TO anon, authenticated;
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.offers TO anon, authenticated;
+GRANT ALL ON public.categories TO service_role;
+GRANT ALL ON public.games TO service_role;
+GRANT ALL ON public.customers TO service_role;
+GRANT ALL ON public.orders TO service_role;
+GRANT ALL ON public.order_items TO service_role;
+GRANT ALL ON public.offers TO service_role;
